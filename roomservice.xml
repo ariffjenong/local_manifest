@@ -6,5 +6,5 @@
       <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="Cherish-12" />
 
       <!-- Pinned blobs for poplar -->
-      <project name="android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S" />
+      <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S" />
   </manifest>
