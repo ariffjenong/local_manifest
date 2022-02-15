@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
       <!-- SONY -->
-      <project name="ariffjenong/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-18.1" />
-      <project name="ariffjenong/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-18.1" />
-      <project name="ariffjenong/android_device_sony_maple_dsds" path="device/sony/maple_dsds" remote="github" revision="lineage-18.1" />
+      <project name="android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="kernel_maple_dsds" revision="lineage-19.0_bpf_backport" />
+      <project name="android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="device_yoshino" revision="S" />
+      <project name="android_device_sony_maple_dsds" path="device/sony/maple_dsds" remote="device_maple_dsds" revision="S" />
 
       <!-- Pinned blobs for poplar -->
-      <project name="ariffjenong/android_vendor_sony_maple_dsds" path="vendor/sony/maple_dsds" remote="github" revision="lineage-18.1" />
+      <project name="android_vendor_sony_maple_dsds" path="vendor/sony/maple_dsds" remote="vendor_maple_dsds" revision="S" />
   </manifest>
