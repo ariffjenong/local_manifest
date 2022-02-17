@@ -7,5 +7,4 @@
 
       <!-- Pinned blobs for poplar -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S" />
-	  <remove-project path="device/qcom/sepolicy-legacy-um" />
   </manifest>
