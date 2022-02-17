@@ -3,7 +3,7 @@
       <!-- SONY -->
       <project name="ariffjenong/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.0_bpf_backport" />
       <project name="ariffjenong/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="lineage-18.1" />
-      <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="lineage-18.1" />
+      <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="Nusantara-11" />
 
       <!-- Pinned blobs for poplar -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="lineage-18.1" />
