@@ -6,5 +6,7 @@
       <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="Nusantara-11" />
 
       <!-- Pinned blobs for poplar -->
-      <project name="linckandrea/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="lineage-18.1" />
+      <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="lineage-18.1" />
+      
+      <project path="device/qcom/sepolicy-legacy-um" name="BlissRoms/android_device_qcom_sepolicy-legacy-um" remote="github" revision="arcadia"/>
   </manifest>
