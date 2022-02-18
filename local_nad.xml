@@ -10,5 +10,5 @@
       
 	  <remove-project name="android_device_qcom_sepolicy-legacy-um" />
 
-      <project path="device/qcom/sepolicy-legacy-um" name="BlissRoms/android_device_qcom_sepolicy-legacy-um" remote="github" revision="arcadia"/>
+      <project path="device/qcom/sepolicy-legacy-um" name="BlissRoms/platform_device_qcom_sepolicy-legacy-um" remote="github" revision="arcadia"/>
   </manifest>
