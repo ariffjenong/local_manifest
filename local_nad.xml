@@ -7,4 +7,9 @@
 
       <!-- Pinned blobs for poplar -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="lineage-18.1" />
+      <remove-project name="android_device_qcom_sepolicy-legacy-um"/>
+      <project path="device/qcom/sepolicy-legacy-um" 
+            name="ariffjenong/android_device_qcom_sepolicy-legacy-um" 
+            remote="github" 
+            revision="arrow-11.0"/>
   </manifest>
