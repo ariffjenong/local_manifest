@@ -5,11 +5,6 @@
       <project name="ariffjenong/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="arcadia" />
       <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="Nusantara-12" />
 
-      <!-- Pinned blobs for poplar -->
+      <!-- Pinned blobs for maple_dsds -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S" />
-      <remove-project name="android_device_qcom_sepolicy-legacy-um"/>
-      <project path="device/qcom/sepolicy-legacy-um" 
-            name="ariffjenong/android_device_qcom_sepolicy-legacy-um" 
-            remote="github" 
-            revision="arrow-12.0"/>
   </manifest>
