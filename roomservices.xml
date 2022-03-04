@@ -9,8 +9,13 @@
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S-New" />
       
       <!-- HAL -->
+      <remove-project name="android_hardware_qcom_audio"/>
+      <remove-project name="android_hardware_qcom_display"/>
+      <remove-project name="android_hardware_qcom_media"/>
+      <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="github" revision="lineage-19.0-legacy" />
       <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
       <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-      <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8998" />
-      <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8998" />
+      <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-19.0-caf-msm8998" />
+      <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-19.0-caf-msm8998" />
+      <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-19.0-caf-msm8998" />
   </manifest>
