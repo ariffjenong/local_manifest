@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
       <!-- SONY -->
-      <project name="derfelot/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.0_bpf_backport" />
+      <project name="derfelot/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.0_bpf_backport_new" />
       <project name="derfelot/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="lineage-19.0" />
       <project name="derfelot/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="lineage-19.0" />
 
