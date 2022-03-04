@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
-      <!-- HAL -->
-      <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="arrow-12.0-caf-msm8998" />
-      <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="arrow-12.0-caf-msm8998" />
-      <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="arrow-12.0-caf-msm8998" />
-
       <!-- SONY -->
       <project name="derfelot/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.0_bpf_backport" />
       <project name="derfelot/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="lineage-19.0" />
