@@ -7,7 +7,4 @@
 
       <!-- Pinned blobs for maple_dsds -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S-New" />
-      
-      <!-- HAL -->
-      <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-18.1" />
   </manifest>
