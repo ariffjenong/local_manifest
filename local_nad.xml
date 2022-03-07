@@ -9,5 +9,5 @@
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S-New" />
 
       <!-- qcom_common -->
-      <project name=PixelExperience-Devices/android_device_qcom_common.git" path="device/qcom/common" remote="github" revision="twelve" />
+      <project name="PixelExperience-Devices/android_device_qcom_common.git" path="device/qcom/common" remote="github" revision="twelve" />
   </manifest>
