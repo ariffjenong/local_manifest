@@ -8,6 +8,14 @@
       <!-- Pinned blobs for maple_dsds -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S-New" />
 
-      <!-- qcom_common -->
-      <project name="PixelExperience-Devices/device_qcom_common.git" path="device/qcom/common" remote="github" revision="twelve" />
+      <!-- Telephony -->
+
+      <remove-project name="android_frameworks_opt_telephony" />
+      <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.0" />
+
+      <remove-project name="android_frameworks_opt_net_ims" />
+      <project name="LineageOS/android_frameworks_opt_net_ims.git" path="frameworks/opt/net/ims" remote="github" revision="lineage-19.0" />
+
+      <remove-project name="android_frameworks_opt_net_wifi" />
+      <project name="LineageOS/android_frameworks_opt_net_wifi.git" path="frameworks/opt/net/wifi" remote="github" revision="lineage-19.0" />
   </manifest>
