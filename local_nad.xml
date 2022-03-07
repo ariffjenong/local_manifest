@@ -10,7 +10,7 @@
 
       <!-- Telephony -->
 
-      <remove-project name="android_frameworks_opt_telephony" />
+      <!--<remove-project name="android_frameworks_opt_telephony" />
       <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.0" />
 
       <remove-project name="android_frameworks_opt_net_ims" />
@@ -18,4 +18,4 @@
 
       <remove-project name="android_frameworks_opt_net_wifi" />
       <project name="LineageOS/android_frameworks_opt_net_wifi.git" path="frameworks/opt/net/wifi" remote="github" revision="lineage-19.0" />
-  </manifest>
+  </manifest> -->
