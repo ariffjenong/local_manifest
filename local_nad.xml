@@ -25,4 +25,7 @@
 
       <remove-project name="android_vendor_codeaurora_telephony" />
       <project name="LineageOS/android_vendor_codeaurora_telephony.git" path="vendor/codeaurora/telephony" remote="github" revision="lineage-19.0" />
+
+      <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" remote="github" revision="lineage-19.0" />
+      <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="github" revision="lineage-19.0" />
   </manifest>
