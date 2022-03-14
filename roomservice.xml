@@ -3,7 +3,7 @@
       <remote  name="google"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.0.0_r29" />
+           revision="refs/tags/android-12.1.0_r1" />
 
       <!-- SONY -->
       <project name="derfelot/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.0_bpf_backport_new" />
@@ -15,11 +15,11 @@
 
       <!-- fixed sim with AOSP Telephony -->
       <remove-project name="android_frameworks_opt_telephony" />
-      <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.0" />
+      <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.1" />
 
       <remove-project name="android_frameworks_opt_net_ims" />
       <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="google" />
 
       <remove-project name="android_system_sepolicy" />
-      <project name="ariffjenong/android_system_sepolicy-1" path="system/sepolicy" remote="github" revision="twelve" />
+      <project name="ariffjenong/android_system_sepolicy-1" path="system/sepolicy" remote="github" revision="twelve-one" />
   </manifest>
