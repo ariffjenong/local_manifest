@@ -24,6 +24,7 @@
       <project name="ariffjenong/android_system_sepolicy-1" path="system/sepolicy" remote="github" revision="twelve-one" />
 
       <!-- remove -->
+      <remove-project name="android_vendor_nxp_opensource_halimpl" />
       <remove-project name="android_hardware_qcom_audio" />
       <remove-project name="android_hardware_qcom_display" />
       <remove-project name="android_hardware_qcom_media" />
