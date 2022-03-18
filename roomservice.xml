@@ -22,4 +22,12 @@
 
       <remove-project name="android_system_sepolicy" />
       <project name="ariffjenong/android_system_sepolicy-1" path="system/sepolicy" remote="github" revision="twelve-one" />
+
+      <!-- remove -->
+      <remove-project name="android_hardware_qcom_audio" />
+      <remove-project name="android_hardware_qcom_display" />
+      <remove-project name="android_hardware_qcom_media" />
+      <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-msm8998" remote="github" />
+      <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-msm8998" remote="github" />
+      <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-msm8998" remote="github" />
   </manifest>
