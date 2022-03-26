@@ -3,7 +3,7 @@
       <remote  name="google"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.1.0_r1" />
+           revision="refs/tags/android-12.1.0_r2" />
 
       <!-- SONY -->
       <project name="ariffjenong/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.1" />
