@@ -6,26 +6,39 @@
            revision="refs/tags/android-12.0.0_r29" />
 
       <!-- SONY -->
-      <project name="derfelot/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.0_bpf_backport_new" />
-      <project name="ariffjenong/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="arcadia" />
+      <project name="ariffjenong/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.1" />
+      <project name="ariffjenong/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="dot" />
       <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="Nusantara-12-New" />
 
       <!-- Pinned blobs for maple_dsds -->
       <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="S-New" />
 
-      <!-- fixed sim with AOSP Telephony -->
+      <!-- remove -->
+      <remove-project name="android_build" />
+      <remove-project name="android_build_soong" />
+      <remove-project name="android_bionic" />
       <remove-project name="android_frameworks_opt_telephony" />
-      <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.0" />
-
       <remove-project name="android_frameworks_opt_net_ims" />
-      <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="google" />
-
-      <remove-project name="android_frameworks_opt_net_wifi" />
-      <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="google" />
-
       <remove-project name="android_vendor_codeaurora_telephony" />
-      <project name="LineageOS/android_vendor_codeaurora_telephony.git" path="vendor/codeaurora/telephony" remote="github" revision="lineage-19.0" />
 
+      <project name="ariffjenong/android_build" path="build/make" remote="github" revision="12" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+        <linkfile src="target" dest="build/target"/>
+        <linkfile src="tools" dest="build/tools"/>
+      </project>
+      <project path="build/soong" name="ariffjenong/android_build_soong" remote="github" revision="12" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+      </project>
+      <project name="ariffjenong/android_bionic" path="bionic" remote="github" revision="12 />
+      <!-- fixed sim with AOSP Telephony -->
+      <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.0" />
+      <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="google" />
+      <project name="LineageOS/android_vendor_codeaurora_telephony.git" path="vendor/codeaurora/telephony" remote="github" revision="lineage-19.0" />
       <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" remote="github" revision="lineage-19.0" />
       <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="github" revision="lineage-19.0" />
   </manifest>
