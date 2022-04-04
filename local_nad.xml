@@ -21,19 +21,8 @@
       <remove-project name="android_frameworks_opt_net_ims" />
       <remove-project name="android_vendor_codeaurora_telephony" />
 
-      <project name="ariffjenong/android_build" path="build/make" remote="github" revision="12" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-        <linkfile src="core" dest="build/core" />
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-        <linkfile src="target" dest="build/target"/>
-        <linkfile src="tools" dest="build/tools"/>
-      </project>
-      <project path="build/soong" name="ariffjenong/android_build_soong" remote="github" revision="12" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-      </project>
+      <project name="ariffjenong/android_build" path="build/make" remote="github" revision="12" />
+      <project path="build/soong" name="ariffjenong/android_build_soong" remote="github" revision="12" />
       <project name="ariffjenong/android_bionic" path="bionic" remote="github" revision="12 />
       <!-- fixed sim with AOSP Telephony -->
       <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.0" />
