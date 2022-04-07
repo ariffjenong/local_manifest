@@ -8,10 +8,10 @@
       <!-- SONY -->
       <project name="ariffjenong/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="lineage-19.1" />
       <project name="ariffjenong/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="dot" />
-      <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="Nusantara-12" />
+      <project name="ariffjenong/android_device_sony_maple.git" path="device/sony/maple" remote="github" revision="Nusantara-12" />
 
-      <!-- Pinned blobs for maple_dsds -->
-      <project name="ariffjenong/android_vendor_sony_maple_dsds.git" path="vendor/sony/maple_dsds" remote="github" revision="lineage-19.1" />
+      <!-- Pinned blobs for maple -->
+      <project name="ariffjenong/android_vendor_sony_maple.git" path="vendor/sony/maple" remote="github" revision="lineage-19.1" />
 
       <!-- remove -->
       <remove-project name="android_frameworks_opt_telephony" />
@@ -22,5 +22,4 @@
       <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.1" />
       <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="google" />
       <project name="LineageOS/android_vendor_codeaurora_telephony.git" path="vendor/codeaurora/telephony" remote="github" revision="lineage-19.1" />
-      <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" remote="github" revision="lineage-19.1" />
   </manifest>
