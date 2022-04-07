@@ -22,5 +22,4 @@
       <project name="LineageOS/android_frameworks_opt_telephony.git" path="frameworks/opt/telephony" remote="github" revision="lineage-19.1" />
       <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="google" />
       <project name="LineageOS/android_vendor_codeaurora_telephony.git" path="vendor/codeaurora/telephony" remote="github" revision="lineage-19.1" />
-      <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" remote="github" revision="lineage-19.1" />
   </manifest>
