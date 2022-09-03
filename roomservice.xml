@@ -2,7 +2,7 @@
   <manifest>
 
       <!-- SONY -->
-      <project name="ariffjenong/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="cherish-12" />
+      <project name="NusantaraROM-Devices/android_kernel_sony_msm8998.git" path="kernel/sony/msm8998" remote="github" revision="maple_dsds-12.1" />
       <project name="ariffjenong/android_device_sony_yoshino-common.git" path="device/sony/yoshino-common" remote="github" revision="cherish-12" />
       <project name="ariffjenong/android_device_sony_maple_dsds.git" path="device/sony/maple_dsds" remote="github" revision="cherish-12" />
 
